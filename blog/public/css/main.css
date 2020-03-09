@@ -1,0 +1,32 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(204, 204, 204) !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh !important; */
+    width: 100vw;
+}
+
+.row {
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+
+}
+
+.tableArea {
+    overflow: scroll;
+    max-height: 70vh;
+    width: 50vw;
+}
+
+.thead {
+    position: fixed;
+    width: 50vw;
+}
